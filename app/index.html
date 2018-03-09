@@ -18,8 +18,13 @@
       </script>
       <script>
          sap.ui.getCore().attachInit(function () {
-            new sap.ui.core.ComponentContainer({
-               name : "app"
+            new sap.m.Shell({
+               app : new sap.ui.core.ComponentContainer({
+                  name : "app",
+                  settings : {
+                      id : "app"
+                  }
+               })
             }).placeAt("content");
          });
       </script>
