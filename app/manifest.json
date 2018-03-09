@@ -38,6 +38,12 @@
 		  "bundleName": "app.i18n.i18n"
 		}
 	  }
-	}
+	},
+	"resources": {
+	  "css": [
+		{
+		  "uri": "css/style.css"
+		}
+	  ]}
   }
 }
