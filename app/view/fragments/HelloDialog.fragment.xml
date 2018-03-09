@@ -4,5 +4,12 @@
    <Dialog
       id="helloDialog"
       title="Hello {/recipient/name}">
+      <beginButton>
+         <Button
+	    icon="sap-icon://accept"
+            text="{i18n>dialogCloseButtonText}"
+            press="onCloseDialog"/>
+      </beginButton>
    </Dialog>
+   
 </core:FragmentDefinition>
