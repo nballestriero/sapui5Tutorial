@@ -37,6 +37,10 @@
 		"settings": {
 		  "bundleName": "app.i18n.i18n"
 		}
+	  },
+	  "invoice": {
+		"type": "sap.ui.model.json.JSONModel",
+		"uri": "localData/Invoices.json"
 	  }
 	},
 	"resources": {
